@@ -1,0 +1,63 @@
+/* {
+    box-sizing: border-box;
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0%;
+    background-image: radial-gradient( rgb(43, 41, 41) 10%, black);
+    color: white;
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+}
+
+header h1 {
+    display: inline;
+    text-shadow: 2px 2px 2px lightgray;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 5vw;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    padding: .5em;
+    font-size: 2vw;
+    margin: 2%;
+    text-decoration: none;
+    color: white;
+    transition: transform 1s;
+}
+
+nav a:hover {
+    transform: rotate(360deg);
+}
+
+main {
+    width: 100%;
+    margin: auto;
+}
+
+main img {
+    display: inline-block;
+    width: 32%;
+    height: auto;
+    margin: .5%;
+}
+
+footer {
+    background-image: linear-gradient(45deg, black, rgb(43, 42, 42));
+    color: white;
+    height: auto;
+    width: 100%;
+}
