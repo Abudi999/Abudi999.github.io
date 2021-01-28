@@ -46,13 +46,39 @@ nav a:hover {
 main {
     width: 100%;
     margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    gird-gap: 1%;
 }
 
 main img {
-    display: inline-block;
-    width: 32%;
-    height: auto;
+    width: 100%;
+    margin: .2%;
+    border: white .3vw solid;
+    height: 100%;
     margin: .5%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    grid-row: 3/5;
+}
+
+.img2 {
+    width: 100%;
+    height: 100%;
+    grid-column: 2/5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.img3 {
+    width: 100%;
+    height: 100%;
+    grid-column: 4/4;
+    grid-row: 2/4;
 }
 
 footer {
