@@ -45,7 +45,8 @@ nav a:hover {
 
 main {
     width: 98%;
-    height: 200%;
+    height: 100%;
+    margin: auto;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto;
@@ -54,21 +55,19 @@ main {
 
 main img {
     width: 100%;
-    height: 100%;
     margin: .2%;
     border: white .3vw solid;
+    height: 100%;
     margin: .5%;
 }
 
 .img {
     width: 100%;
-    height: 100%;
     grid-row: 3/5;
 }
 
 .img2 {
     width: 100%;
-    height: 100%;
     grid-column: 2/5;
     grid-row-start: 4;
     grid-row-end: 5;
@@ -76,7 +75,6 @@ main img {
 
 .img3 {
     width: 100%;
-    height: 100%;
     grid-column: 4/4;
     grid-row: 2/4;
 }
